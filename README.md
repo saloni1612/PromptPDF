@@ -3,7 +3,7 @@
 ````markdown
 # PromptPDF
 
-**PromptPDF** is a local Retrieval Augmented Generation (RAG) pipeline that allows you to query any PDF document using a Large Language Model (LLM). It is designed to provide full control and transparency over each component, including PDF parsing, text chunking, embedding generation, semantic retrieval, and context-based response generation.
+PromptPDF is a local Retrieval Augmented Generation (RAG) pipeline that allows you to query any PDF document using a Large Language Model (LLM). It is designed to provide full control and transparency over each component, including PDF parsing, text chunking, embedding generation, semantic retrieval, and context-based response generation.
 
 ## Features
 
@@ -17,29 +17,23 @@
 
 1. Clone the repository:
 
-   ```bash
    git clone https://github.com/yourusername/promptpdf.git
    cd promptpdf
 
 
 2. (Optional) Create and activate a virtual environment:
 
-   ```bash
    python -m venv venv
    source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
 
 3. Install dependencies:
 
-   ```bash
    pip install -r requirements.txt
-   ```
+   
 
 4. Start your local LLM (e.g., using Ollama):
 
-   ```bash
    ollama run mistral
-   ```
 ````
 ## Usage
 
