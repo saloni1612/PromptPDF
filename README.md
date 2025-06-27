@@ -13,7 +13,7 @@ PromptPDF is a local Retrieval Augmented Generation (RAG) pipeline that allows y
 
 1. Clone the repository:
 
-   git clone https://github.com/yourusername/promptpdf.git
+   git clone https://github.com/saloni1612/PromptPDF.git
    cd promptpdf
 
 
