@@ -14,20 +14,21 @@ PromptPDF is a local Retrieval Augmented Generation (RAG) pipeline that allows y
 1. Clone the repository:
 
    git clone https://github.com/saloni1612/PromptPDF.git
+   
    cd promptpdf
 
 
-2. (Optional) Create and activate a virtual environment:
+3. (Optional) Create and activate a virtual environment:
 
    python -m venv venv
    source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-3. Install dependencies:
+4. Install dependencies:
 
    pip install -r requirements.txt
    
 
-4. Start your local LLM (e.g., using Ollama):
+5. Start your local LLM (e.g., using Ollama):
 
    ollama run mistral
 
